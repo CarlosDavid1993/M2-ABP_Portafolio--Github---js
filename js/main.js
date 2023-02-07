@@ -15,6 +15,6 @@ var meses = [
   var yyy = date.getFullYear();
   var fecha_formateada = dia + ' de ' + meses[mes] + ' de ' + yyy;
   function displayDate (){ 
-  document.getElementById('fecha y hora').innerHTML = "Fecha: " + fecha_formateada;
+  document.getElementById('fecha').innerHTML = "Hoy estamos a: " + fecha_formateada;
   alert(fecha_formateada);
   }
